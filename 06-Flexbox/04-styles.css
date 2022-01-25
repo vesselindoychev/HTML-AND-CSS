@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Helvetica", sans-serif;
+}
+.container {
+  display: flex;
+  max-width: 65vw;
+  justify-content: flex-end;
+}
+section {
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+section span {
+  border: 1px solid black;
+  text-align: center;
+
+}
+.week{
+    border-right: none;
+}
+.notes {
+  flex-direction: column;
+  border-left: none;
+}
+.week span{
+    flex-grow: 1;
+    padding: 30px 0px 70px 0px;
+    
+}
+.notes span {
+  text-transform: uppercase;
+  flex-grow: 1;
+  padding: 10px 30px 0px 30px;
+  font-weight: bold;
+}
+
+.week span:nth-child(1){
+    flex-basis: 100%;
+    padding: 20px 0 50px 0;
+    font-weight: bold;
+}
+.week span:nth-child(7){
+    flex-basis: 100%;
+    font-weight: bold;
+}

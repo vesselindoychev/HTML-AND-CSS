@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+    color: red;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.btn{
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 10px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: pink;
+    color: blue;
+}

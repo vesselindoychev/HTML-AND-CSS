@@ -1,0 +1,61 @@
+.viewport1 {
+  position: absolute;
+  background: rgb(24, 90, 157);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 90, 157, 1) 6%,
+    rgba(46, 150, 159, 1) 53%,
+    rgba(66, 203, 161, 1) 100%
+  );
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+
+.viewport1 p {
+  text-align: center;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.viewport1 img {
+  width: 100%;
+}
+
+.viewport2 {
+  position: absolute;
+  background: rgb(168, 50, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 120, 1) 6%,
+    rgba(189, 91, 68, 1) 62%,
+    rgba(210, 129, 21, 1) 100%
+  );
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100vw;
+  height: 50vh;
+}
+
+.viewport2 p {
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.viewport2 img {
+  width: 100%;
+    
+}

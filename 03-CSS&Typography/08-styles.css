@@ -1,0 +1,33 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+article{
+    margin-left: 200px;
+    margin-top: 130px;
+}
+p{
+    margin-bottom: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 4px;
+    font-size: 26px;
+}
+
+.star{
+    background-color: rgb(0, 128, 0);
+    
+}
+.star i{
+    padding-right: 8px;
+    font-size: 23px;
+}
+
+.mail{
+    background-color: rgb(255, 140, 0);
+    
+}
+.mail i{
+    padding-right: 8px;
+}
